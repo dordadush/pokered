@@ -1,9 +1,7 @@
 Music_TitleScreen::
-	channel_count 4
-	channel 1, Music_TitleScreen_Ch1
-	channel 2, Music_TitleScreen_Ch2
-	channel 3, Music_TitleScreen_Ch3
-	channel 4, Music_TitleScreen_Ch4
+	channel_count 2
+	channel 1, Ch1
+	channel 2, Ch2
 
 Music_Credits::
 	channel_count 3
@@ -48,11 +46,9 @@ Music_GameCorner::
 	channel 3, Music_GameCorner_Ch3
 
 Music_IntroBattle::
-	channel_count 4
-	channel 1, Music_IntroBattle_Ch1
-	channel 2, Music_IntroBattle_Ch2
-	channel 3, Music_IntroBattle_Ch3
-	channel 4, Music_IntroBattle_Ch4
+	channel_count 2
+	channel 1, Ch1
+	channel 2, Ch2
 
 ; Power Plant, Cerulean Cave, Rocket HQ
 Music_Dungeon1::

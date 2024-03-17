@@ -18,22 +18,23 @@ _PalletTownOakItsUnsafeText::
 	done
 
 _PalletTownGirlText::
-	text "I'm raising"
-	line "#MON too!"
+	text "I got back"
+	line "from Finland!"
 
-	para "When they get"
-	line "strong, they can"
-	cont "protect me!"
+	para "I've heard"
+	line "that you saw"
+	cont "the Northern"
+	cont "Lights!"
+
+	para "I'm so jealous!"
 	done
 
-_PalletTownFisherText::
-	text "Technology is"
-	line "incredible!"
 
-	para "You can now store"
-	line "and recall items"
-	cont "and #MON as"
-	cont "data via PC!"
+_PalletTownFisherText::
+	text "Let there be"
+	line "light!"
+
+	para "Genesis 1:3"
 	done
 
 _PalletTownOaksLabSignText::
@@ -42,9 +43,8 @@ _PalletTownOaksLabSignText::
 	done
 
 _PalletTownSignText::
-	text "PALLET TOWN"
-	line "Shades of your"
-	cont "journey await!"
+	text "TEL AVIV"
+	line "BETSALEL ST."
 	done
 
 _PalletTownPlayersHouseSignText::

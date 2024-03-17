@@ -96,9 +96,6 @@ OakSpeech:
 	lb bc, BANK(Rival1Pic), $00
 	call IntroDisplayPicCenteredOrUpperRight
 	call FadeInIntroPic
-	ld hl, IntroduceRivalText
-	call PrintText
-	call ChooseRivalName
 .skipSpeech
 	call GBFadeOutToWhite
 	call ClearScreen
@@ -167,13 +164,9 @@ OakSpeechText2:
 	text_far _OakSpeechText2A
 	; BUG: The cry played does not match the sprite displayed.
 	sound_cry_nidorina
-	text_far _OakSpeechText2B
 	text_end
 IntroducePlayerText:
 	text_far _IntroducePlayerText
-	text_end
-IntroduceRivalText:
-	text_far _IntroduceRivalText
 	text_end
 OakSpeechText3:
 	text_far _OakSpeechText3

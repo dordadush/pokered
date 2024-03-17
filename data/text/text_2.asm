@@ -576,7 +576,7 @@ _IndigoPlateauHQText::
 
 _RedBedroomSNESText::
 	text "<PLAYER> is"
-	line "playing the SNES!"
+	line "playing the PS2!"
 	cont "...Okay!"
 	cont "It's time to go!"
 	done
@@ -1694,34 +1694,30 @@ _LinkCanceledText::
 	done
 
 _OakSpeechText1::
-	text "Hello there!"
-	line "Welcome to the"
-	cont "world of #MON!"
+	text "Hey Noa!"
+	line "Welcome to your"
+	cont "30th birthday"
+	cont "celebration!"
 
-	para "My name is OAK!"
+	para "I'm Troompy"
 	line "People call me"
-	cont "the #MON PROF!"
+	cont "TAMPASHIT!"
+
+	para "or NUSHIT"
+	line "SHEL IMA SHELO"
+	cont "SHEHI...."
 	prompt
 
 _OakSpeechText2A::
-	text "This world is"
-	line "inhabited by"
-	cont "creatures called"
-	cont "#MON!@"
+	text "SRUFA"
+	line "SRUFA"
+	cont "SRUFA"
+	cont "SRUFA"
+	cont "SRUFAAAA!!!"
 	text_end
 
 _OakSpeechText2B::
 	text_start
-
-	para "For some people,"
-	line "#MON are"
-	cont "pets. Others use"
-	cont "them for fights."
-
-	para "Myself..."
-
-	para "I study #MON"
-	line "as a profession."
 	prompt
 
 _IntroducePlayerText::
@@ -1743,12 +1739,12 @@ _OakSpeechText3::
 	text "<PLAYER>!"
 
 	para "Your very own"
-	line "#MON legend is"
+	line "legend is"
 	cont "about to unfold!"
 
-	para "A world of dreams"
+	para "A journey of dreams"
 	line "and adventures"
-	cont "with #MON"
+	cont "of us"
 	cont "awaits! Let's go!"
 	done
 

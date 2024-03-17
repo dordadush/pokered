@@ -19,31 +19,23 @@ _PewterGymBrockWaitTakeThisText::
 
 _PewterGymReceivedTM34Text::
 	text "<PLAYER> received"
-	line "TM34!@"
+	line "The Vault!"
 	text_end
 
 _TM34ExplanationText::
 	text_start
 
-	para "A TM contains a"
-	line "technique that"
-	cont "can be taught to"
-	cont "#MON!"
+	para "The Vault"
+	line "contains the"
+	cont "destination where"
+	cont "the celebrations"
+	cont "of <PLAYER>"
+	cont "is being held!"
 
-	para "A TM is good only"
-	line "once! So when you"
-	cont "use one to teach"
-	cont "a new technique,"
-	cont "pick the #MON"
-	cont "carefully!"
-
-	para "TM34 contains"
-	line "BIDE!"
-
-	para "Your #MON will"
-	line "absorb damage in"
-	cont "battle then pay"
-	cont "it back double!"
+	para "The Vault"
+	line "is called TM34"
+	cont "in your"
+	cont "inventory"
 	done
 
 _PewterGymTM34NoRoomText::

@@ -343,7 +343,7 @@ ContinueText:
 	; fallthrough
 
 NewGameText:
-	db   "NEW GAME"
+	db   "TAMPASHIT"
 	next "OPTION@"
 
 CableClubOptionsText:

@@ -1,8 +1,12 @@
 _RedsHouse1FMomWakeUpText::
-	text "MOM: Right."
-	line "All boys leave"
-	cont "home some day."
-	cont "It said so on TV."
+	text "MOM: Good morning!"
+	line "And it's only 11AM!"
+	
+	para "Single digits"
+	line "are reserved only"
+	cont "for Ben Gurion"
+	cont "Airport."
+	done
 
 	para "PROF.OAK, next"
 	line "door, is looking"
@@ -24,12 +28,11 @@ _RedsHouse1FMomLookingGreatText::
 	done
 
 _RedsHouse1FTVStandByMeMovieText::
-	text "There's a movie"
-	line "on TV. Four boys"
-	cont "are walking on"
-	cont "railroad tracks."
-
-	para "I better go too."
+	text "The movie Mulan is"
+	line "on TV. This is"
+	cont "the 687th time"
+	cont "this movie"
+	cont "is playing"
 	done
 
 _RedsHouse1FTVWrongSideText::

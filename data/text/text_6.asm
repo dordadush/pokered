@@ -154,7 +154,8 @@ _PPRestoredText::
 	prompt
 
 _BootedUpTMText::
-	text "Booted up a TM!"
+	text "Opened up"
+	line "The Vault!"
 	prompt
 
 _BootedUpHMText::
@@ -162,15 +163,13 @@ _BootedUpHMText::
 	prompt
 
 _TeachMachineMoveText::
-	text "It contained"
-	line "@"
-	text_ram wStringBuffer
+	text "It contains"
+	line "the destination!"
+	cont "The destination"
+	cont "IS"
+	cont "bit.ly/noni687"
 	text "!"
-
-	para "Teach @"
 	text_ram wStringBuffer
-	text_start
-	line "to a #MON?"
 	done
 
 _MonCannotLearnMachineMoveText::

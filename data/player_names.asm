@@ -1,9 +1,9 @@
 IF DEF(_RED)
 DefaultNamesPlayer:
 	db   "NEW NAME"
-	next "RED"
-	next "ASH"
-	next "JACK"
+	next "PARTOV"
+	next "NONIQUEEN"
+	next "NOA"
 	db   "@"
 
 DefaultNamesRival:

@@ -44,8 +44,11 @@ _OaksLabYouWantBulbasaurText::
 	done
 
 _OaksLabMonEnergeticText::
-	text "This #MON is"
-	line "really energetic!"
+	text "That was an"
+	line "easy choice!"
+	cont "Everyone knows"
+	cont "Noa will"
+	cont "choose Bulbasaur!"
 	prompt
 
 _OaksLabReceivedMonText::
@@ -106,6 +109,13 @@ _OaksLabOak1ParcelThanksText::
 	line "custom # BALL"
 	cont "I ordered!"
 	cont "Thank you!"
+
+	para "I'm sure"
+	line "It was much"
+	cont "simpler than"
+	cont "riding a bike"
+	cont "in -32C"
+	cont "weather!"
 	done
 
 _OaksLabOak1PokemonAroundTheWorldText::
@@ -260,8 +270,7 @@ _OaksLabRivalIllTakeYouOnText::
 _OaksLabRivalIPickedTheWrongPokemonText::
 	text "WHAT?"
 	line "Unbelievable!"
-	cont "I picked the"
-	cont "wrong #MON!"
+	cont "PARAKT OTI!"
 	prompt
 
 _OaksLabRivalAmIGreatOrWhatText::
@@ -341,21 +350,6 @@ _OaksLabOakThatWasMyDreamText::
 	done
 
 _OaksLabRivalLeaveItAllToMeText::
-	text "<RIVAL>: Alright"
-	line "Gramps! Leave it"
-	cont "all to me!"
-
-	para "<PLAYER>, I hate to"
-	line "say it, but I"
-	cont "don't need you!"
-
-	para "I know! I'll"
-	line "borrow a TOWN MAP"
-	cont "from my sis!"
-
-	para "I'll tell her not"
-	line "to lend you one,"
-	cont "<PLAYER>! Hahaha!"
 	done
 
 _OaksLabScientistText::
